@@ -11,6 +11,8 @@ const elements = [
     { number: 12, symbol: "Mg", name: "Magnesium", category: "mo2" },
     { number: 20, symbol: "Ca", name: "Calcium", category: "mo2" },
     { number: 38, symbol: "Sr", name: "Strontium", category: "mo2" },
+    { number: 56, symbol: "Br", name: "Barium", category: "mo2" },
+    { number: 88, symbol: "Ra", name: "Radium, category: "mo2" },
     { number: 21, symbol: "Sc", name: "Scandium", category: "mo3" },
     { number: 39, symbol: "Y", name: "Yttrium", category: "mo3" },
     { number: 57, symbol: "La", name: "Lanthanum", category: "mo3" },
