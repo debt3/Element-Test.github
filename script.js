@@ -5,7 +5,7 @@ const elements = [
     { number: 11, symbol: "Na", name: "Sodium", category: "mo1" },
     { number: 19, symbol: "K", name: "Potassium", category: "mo1" },
     { number: 37, symbol: "Rb", name: "Rubidium", category: "mo1" },
-    { number: 55, symbol: "Cs", name: "Cesium", category: "mo1" },
+    { number: 55, symbol: "Cs", name: "Caesium", category: "mo1" },
     { number: 87, symbol: "Fr", name: "Francium", category: "mo1" },
     { number: 4, symbol: "Be", name: "Beryllium", category: "mo2" },
     { number: 12, symbol: "Mg", name: "Magnesium", category: "mo2" },
