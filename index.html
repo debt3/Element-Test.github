@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ฝึกจำธาตุ</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <h1>แบบฝึกหัดจำธาตุ</h1>
+  <div class="quiz-box">
+    <div>
+      <label for="category-select">เลือกหมวดหมู่:</label>
+      <select id="category-select">
+        <option value="all">ทั้งหมด</option>
+        <option value="mo1">หมู่ 1</option>
+        <option value="mo2">หมู่ 2</option>
+        <option value="mo3">หมู่ 3</option>
+        <option value="mo4">หมู่ 4</option>
+        <option value="mo5">หมู่ 5</option>
+        <option value="mo6">หมู่ 6</option>
+        <option value="mo7">หมู่ 7</option>
+        <option value="mo8">หมู่ 8</option>
+        <option value="mo9">หมู่ 9</option>
+        <option value="mo10">หมู่ 10</option>
+        <option value="mo11">หมู่ 11</option>
+        <option value="mo12">หมู่ 12</option>
+        <option value="mo13">หมู่ 13</option>
+        <option value="mo14">หมู่ 14</option>
+        <option value="mo15">หมู่ 15</option>
+        <option value="mo16">หมู่ 16</option>
+        <option value="mo17">หมู่ 17</option>
+        <option value="mo18">หมู่ 18</option>
+      </select>
+    </div>
+    <div>
+      <label for="mode-select">เลือกโหมด:</label>
+      <select id="mode-select">
+        <option value="random">สุ่ม</option>
+        <option value="select">เลือกธาตุ</option>
+      </select>
+    </div>
+    <div id="element-select-container" style="display: none;">
+      <label for="element-select">เลือกธาตุ:</label>
+      <select id="element-select">
+        <!-- ตัวเลือกธาตุจะถูกเติมโดย JavaScript -->
+      </select>
+    </div>
+    <div>
+      <label for="question-type-select">รูปแบบคำถาม:</label>
+      <select id="question-type-select">
+        <option value="symbol-to-name">สัญลักษณ์ → ชื่อธาตุ</option>
+        <option value="name-to-symbol">ชื่อธาตุ → สัญลักษณ์</option>
+      </select>
+    </div>
+    <div class="question" id="question">?</div>
+    <input type="text" id="answer" placeholder="พิมพ์คำตอบที่นี่">
+    <div class="result" id="result"></div>
+    <button onclick="checkAnswer()">ตรวจคำตอบ</button>
+    <button onclick="nextQuestion()">คำถามถัดไป</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
